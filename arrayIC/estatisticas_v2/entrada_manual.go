@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func entradaManual(array []int) {
+func entradaManualArray(array []int) {
 	var cont int
 	var tamArray int
 

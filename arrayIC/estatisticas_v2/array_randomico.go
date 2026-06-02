@@ -4,7 +4,7 @@ import (
 	"math/rand"
 )
 
-func arrayRandomico(array []int) {
+func fillArrayRandomico(array []int) {
 	var cont int
 	var valor int
 	var tamArray int
