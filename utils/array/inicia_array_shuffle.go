@@ -1,8 +1,15 @@
-package main
+package array
 
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+)
 
-func iniciaArrayShuffle(array []int) {
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
+
+func IniciaArrayShuffle(array []int) {
 	var cont int
 	var index1 int
 	var index2 int
@@ -18,6 +25,6 @@ func iniciaArrayShuffle(array []int) {
 		index1 = rand.Intn(tamArray)
 		index2 = rand.Intn(tamArray)
 
-		troca(index1, index2, array)
+		Troca(index1, index2, array)
 	}
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"ic_exercicios/utils/array"
 )
 
 func main() {
@@ -13,8 +14,8 @@ func main() {
 	tamArray = 20
 	arrayIC = make([]int, tamArray)
 
-	iniciaArrayShuffle(arrayIC)
-	imprimir(arrayIC)
+	array.IniciaArrayShuffle(arrayIC)
+	array.Imprimir(arrayIC)
 
 	endMaior = 0
 	endMenor = 0
@@ -38,7 +39,7 @@ func main() {
 	fmt.Println("O menor numero eh: ", arrayIC[endMenor])
 	fmt.Println("A media eh: ", media)
 
-	troca(endMaior, endMenor, arrayIC)
+	array.Troca(endMaior, endMenor, arrayIC)
 
-	imprimir(arrayIC)
+	array.Imprimir(arrayIC)
 }

@@ -1,6 +1,6 @@
-package main
+package array
 
-func troca(index1 int, index2 int, array []int) {
+func Troca(index1 int, index2 int, array []int) {
 	var temp int
 
 	temp = array[index1]

@@ -1,8 +1,8 @@
-package main
+package array
 
 import "fmt"
 
-func imprimir(array []int) {
+func Imprimir(array []int) {
 	var cont int
 	var tamArray int
 
